@@ -18,8 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".wellcome"
-            android:theme="@style/welcome"></activity>
+        <activity
+            android:name=".wellcome"
+            android:theme="@style/welcome" />
+        <activity android:name=".AdminDash"></activity>
     </application>
 
 </manifest>

@@ -25,7 +25,7 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         setSupportActionBar(toolbar);
 
         drawer = findViewById(R.id.draw_layout);
-        NavigationView navigationView=findViewById(R.id.nav__view);
+        NavigationView navigationView = findViewById(R.id.nav__view);
         navigationView.setNavigationItemSelectedListener(this);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -33,45 +33,45 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
 
             case R.id.nav_admin:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AdminFragment()).commit();
-
-             break;
+                break;
             case R.id.nav_teacher:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new TeacherFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TeacherFragment()).commit();
                 break;
             case R.id.nav_parents:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ParentsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ParentsFragment()).commit();
                 break;
             case R.id.nav_student:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new StudentsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new StudentsFragment()).commit();
                 break;
             case R.id.nav_accountant:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new AccountantFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountantFragment()).commit();
                 break;
             case R.id.nav_library:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new LibrarianFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LibrarianFragment()).commit();
                 break;
             case R.id.nav_home:
-                    openwellcome();
-                    break;
+                openwellcome();
+                break;
 
         }
 
-drawer.closeDrawer(GravityCompat.START);
+        drawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
 
 
     private void openwellcome() {
-        Intent iwellcom=new Intent(this,wellcome.class);
+        Intent iwellcom = new Intent(this, wellcome.class);
         startActivity(iwellcom);
     }
 
@@ -85,4 +85,5 @@ drawer.closeDrawer(GravityCompat.START);
             super.onBackPressed();
         }
     }
+
 }
