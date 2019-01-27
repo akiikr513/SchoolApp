@@ -16,7 +16,7 @@
         android:text="USER ID"
         android:textSize="30sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/teachid"
         android:layout_width="188dp"
         android:layout_height="40dp"

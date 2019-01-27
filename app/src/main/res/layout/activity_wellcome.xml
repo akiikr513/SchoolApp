@@ -25,13 +25,92 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-        <FrameLayout
-            android:id="@+id/fragment_container"
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/slide"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="250dp"
+            android:layout_below="@+id/draw_layout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/draw_layout"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/draw_layout"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="45dp"
+                android:paddingTop="50dp"
+                android:paddingRight="45dp"
+                android:paddingBottom="50dp"
+                android:id="@+id/academics"
+                android:text="Academics &amp;\n Achievements" />
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/draw_layout"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="38dp"
+                android:paddingTop="50dp"
+                android:paddingRight="38dp"
+                android:paddingBottom="50dp"
+                android:id="@+id/events"
+                android:text="Events &amp; \n  Functions    " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/draw_layout"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/draw_layout"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="45dp"
+                android:paddingTop="50dp"
+                android:paddingRight="45dp"
+                android:paddingBottom="50dp"
+                android:id="@+id/cocu"
+                android:text="Co-Curricular \n Activities" />
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/draw_layout"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="38dp"
+                android:paddingTop="50dp"
+                android:paddingRight="38dp"
+                android:id="@+id/mission"
+                android:paddingBottom="50dp"
+                android:text="Our Mission &amp;\n Goals" />
+
+        </LinearLayout>
 
 
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav__view"

@@ -40,8 +40,9 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         switch (item.getItemId()){
 
             case R.id.nav_admin:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new AdminFragment()).commit();
-                break;
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AdminFragment()).commit();
+
+             break;
             case R.id.nav_teacher:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new TeacherFragment()).commit();
                 break;
@@ -67,6 +68,7 @@ drawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
+
 
     private void openwellcome() {
         Intent iwellcom=new Intent(this,wellcome.class);
