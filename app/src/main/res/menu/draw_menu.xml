@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin"
+            android:title="Admin" />
+        <item
+            android:id="@+id/nav_teacher"
+            android:icon="@drawable/ic_teacher"
+            android:title="Teacher" />
+        <item
+            android:id="@+id/nav_parents"
+            android:icon="@drawable/ic_parents"
+            android:title="Parents" />
+        <item
+            android:id="@+id/nav_student"
+            android:icon="@drawable/ic_student"
+            android:title="Student" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_library"
+            android:title="Librarian" />
+        <item
+            android:id="@+id/nav_accountant"
+            android:icon="@drawable/ic_accountant"
+            android:title="Accountant" />
+    </group>
+</menu>
