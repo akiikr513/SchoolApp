@@ -32,5 +32,9 @@
             android:id="@+id/nav_accountant"
             android:icon="@drawable/ic_accountant"
             android:title="Accountant" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact"/>
     </group>
 </menu>

@@ -21,7 +21,9 @@
         <activity
             android:name=".wellcome"
             android:theme="@style/welcome" />
-        <activity android:name=".AdminDash"></activity>
+        <activity android:name=".AdminDash" />
+        <activity android:name=".StudentDash"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>
