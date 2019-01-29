@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentDash">
+    tools:context=".StudentDash"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="196dp"
+        android:layout_height="211dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp" />
+    <ImageView
+        android:id="@+id/s_img"
+        android:layout_width="185dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        tools:srcCompat="@tools:sample/avatars"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="20sp"
+            android:layout_marginLeft="2dp"/>
+
+        <EditText
+            android:id="@+id/s_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_attendance"
+            android:textSize="20sp"
+            android:text="Attandance:" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:text="s_attendance" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="187dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:inputType="textMultiLine"
+        android:text="Notes" />
+
+
+        <TextView
+            android:id="@+id/qanda"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="3dp"
+            android:text="Questions And Assignment" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        >
+    <EditText
+        android:id="@+id/s_quries"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="10sp"
+        android:inputType="textMultiLine"
+        android:text="Quries" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="97dp"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
