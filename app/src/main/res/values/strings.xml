@@ -2,4 +2,11 @@
     <string name="app_name">School App</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="our_goals">Our Goals</string>
+    <string name="to_ensure_a_positive_and_productive_physical_and_cultural_environment_n_to_advance_excellence_in_teaching_n_to_effectively_enhance_communication_to_excel_in_the_collaborative_process">To ensure a positive and productive physical and cultural environment   To advance excellence in teaching   To effectively enhance communication to excel in the collaborative process</string>
+    <string name="from_principal_s_desk_n_mr_abc_xyz_n_mcom_bed_n_joined_this_school_on_25th_january_2012">From Principal\'s desk:   Mr.abc_xyz   Mcom,Bed   Joined this school on 25th january 2012</string>
+    <string name="todo">todo</string>
+    <string name="abt">What distinguishes a great school from a good school? I believe that clarity of purpose, exceptional teachers, and demonstrated outcomes are hallmarks of great schools. A great school is a place with a deep commitment to student learning, where faculty nourish the intellectual, moral, emotional, and social growth of every student. It is a place where students, teachers, and parents embark together on an academic journey with clear and well-defined objectives. It is filled with the joy of discovery and the excitement of personal challenge and growth. It is a community dedicated to developing strength of character and excellence in all dimensions of its students\' lives. And it is a place that has a distinctive and lasting impact.</string>
+    <string name="everyone_should_learn_everyday">Everyone should learn Everyday</string>
+    <string name="mi">Mission</string>
 </resources>
