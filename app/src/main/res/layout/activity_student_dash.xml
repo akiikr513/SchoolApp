@@ -18,14 +18,16 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="1dp" />
-    <ImageView
-        android:id="@+id/s_img"
-        android:layout_width="185dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="1dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        tools:src="@drawable/icon_profle"  />
+
+        <ImageView
+            android:id="@+id/s_img"
+            android:layout_width="170dp"
+            android:layout_height="211dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            tools:src="@drawable/icon_profle"
+            tools:srcCompat="@tools:sample/avatars[0]" />
     </LinearLayout>
 
     <LinearLayout

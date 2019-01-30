@@ -36,7 +36,9 @@
         <activity android:name=".TeacherList" />
         <activity android:name=".TeacherDetail" />
         <activity android:name=".ParentsDash" />
-        <activity android:name=".TeacherDash"></activity>
+        <activity android:name=".TeacherDash" />
+        <activity android:name=".LiberianDash" />
+        <activity android:name=".AccountantDash"></activity>
     </application>
 
 </manifest>
