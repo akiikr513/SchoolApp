@@ -35,7 +35,8 @@
 
         <activity android:name=".TeacherList" />
         <activity android:name=".TeacherDetail" />
-        <activity android:name=".Parents_Dash"></activity>
+        <activity android:name=".ParentsDash" />
+        <activity android:name=".TeacherDash"></activity>
     </application>
 
 </manifest>

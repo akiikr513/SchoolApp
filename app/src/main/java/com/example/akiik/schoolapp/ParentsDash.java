@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class Parents_Dash extends AppCompatActivity {
+public class ParentsDash extends AppCompatActivity {
 Button but;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

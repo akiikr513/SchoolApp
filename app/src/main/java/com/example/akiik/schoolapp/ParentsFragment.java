@@ -11,11 +11,13 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class ParentsFragment extends Fragment {
+
+    Button but;
+
     @Nullable
     @Override
-    Button but;
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v=inflater.inflate(R.layout.fragment_student,container,false);
+        View v = inflater.inflate(R.layout.fragment_parents, container, false);
 
         but = v.findViewById(R.id.but_par_login);
         but.setOnClickListener(new View.OnClickListener() {
@@ -23,9 +25,10 @@ public class ParentsFragment extends Fragment {
             public void onClick(View v) {
 
 
-                Intent ipardash = new Intent(getActivity(), Parents_Dash.class);
+                Intent ipardash = new Intent(getActivity(), ParentsDash.class);
                 startActivity(ipardash);
             }
         });
         return v;
-}}
+    }
+}
