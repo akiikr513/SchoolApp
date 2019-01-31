@@ -32,19 +32,25 @@ public class AdminDash extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.teach:{
+            case R.id.teach:
                 Intent iteach=new Intent(this,TeacherList.class);
                 startActivity(iteach);
-            }
-            break;
+                break;
             case R.id.acc:
+                Intent iacc=new Intent(this,AccountantList.class);
+                startActivity(iacc);
                 break;
             case R.id.stu:
-
+                Intent istu=new Intent(this,StudentDetail.class);
+                startActivity(istu);
                 break;
             case R.id.par:
+                Intent ipar=new Intent(this,ParentList.class);
+                startActivity(ipar);
                 break;
             case R.id.lib:
+                Intent ilib=new Intent(this,LiberianList.class);
+                startActivity(ilib);
                 break;
 
         }

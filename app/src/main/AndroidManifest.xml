@@ -38,7 +38,14 @@
         <activity android:name=".ParentsDash" />
         <activity android:name=".TeacherDash" />
         <activity android:name=".LiberianDash" />
-        <activity android:name=".AccountantDash"></activity>
+        <activity android:name=".AccountantDash" />
+        <activity android:name=".StudentDetail" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".StudentList" />
+        <activity android:name=".StudentEdit" />
+        <activity android:name=".ParentList" />
+        <activity android:name=".LiberianList" />
+        <activity android:name=".AccountantList"></activity>
     </application>
 
 </manifest>
