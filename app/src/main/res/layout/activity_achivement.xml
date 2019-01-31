@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Achivement">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/aAnda"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/awards"
+            android:contentDescription="@string/awards" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/students_achievements"
+            tools:ignore="InefficientWeight" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/ach"
+            tools:ignore="InefficientWeight" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="XII Results"
+            tools:ignore="InefficientWeight" />
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/gnvv"
+            android:contentDescription="@string/awards" />
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/com"
+            android:contentDescription="@string/awards" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="X Results"
+            tools:ignore="InefficientWeight" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/x"
+            android:contentDescription="@string/awards" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Students Placed In Prestigious Institutions"
+            tools:ignore="InefficientWeight" />
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/dfb"
+            android:contentDescription="@string/awards" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Teachers Achievements"
+            tools:ignore="InefficientWeight" />
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/teach"
+            android:contentDescription="@string/awards" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

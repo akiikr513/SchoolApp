@@ -45,7 +45,11 @@
         <activity android:name=".StudentEdit" />
         <activity android:name=".ParentList" />
         <activity android:name=".LiberianList" />
-        <activity android:name=".AccountantList"></activity>
+        <activity android:name=".AccountantList" />
+        <activity android:name=".Achivement" />
+        <activity android:name=".Events" />
+        <activity android:name=".Cocu" />
+        <activity android:name=".Mission"></activity>
     </application>
 
 </manifest>

@@ -8,5 +8,24 @@
     <string name="todo">todo</string>
     <string name="abt">What distinguishes a great school from a good school? I believe that clarity of purpose, exceptional teachers, and demonstrated outcomes are hallmarks of great schools. A great school is a place with a deep commitment to student learning, where faculty nourish the intellectual, moral, emotional, and social growth of every student. It is a place where students, teachers, and parents embark together on an academic journey with clear and well-defined objectives. It is filled with the joy of discovery and the excitement of personal challenge and growth. It is a community dedicated to developing strength of character and excellence in all dimensions of its students\' lives. And it is a place that has a distinctive and lasting impact.</string>
     <string name="everyone_should_learn_everyday">Everyone should learn Everyday</string>
-    <string name="mi">Mission</string>
+
+    <string name="aAnda"><![CDATA[Academics & Achievements]]></string>
+    <string name="awards">awards</string>
+    <string name="students_achievements">Students Achievements:</string>
+    <string name="ach">Priyanshi Gupta of Class XI has secured All India Rank 90 and Regional Rank 10 in the merit of 19th Junior Mathematical Olympiad(JMO) 2016 organized by School Head Quarters,New Delhi.</string>
+
+
+
+    <string name="everyone_learns_everyday">Everyone Learns Everyday</string>
+    <string name="mission">Mission</string>
+    <string name="our_goal">Our Goal</string>
+    <string name="textview">TextView</string>
+    <string name="text_view">TextView</string>
+
+    <string name="to_ensure_a_positive_and_productive_physical_and_cultural_environment_nto_advance_excellence_in_teaching_nto_effectively_enhance_communication_to_excel_in_the_collaborative_process">\nTo ensure a positive and productive, physical and cultural environment. \n\nTo advance excellence in teaching. \n\nTo effectively enhance communication to excel in the collaborative process.</string>
+    <string name="img">img</string>
+
+
+
+
 </resources>

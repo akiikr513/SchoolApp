@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cocu">
+
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center_horizontal"
+    android:text="Co-curricular activities not only make the students active and energetic but also enable to harness the in-depth potential of students. It enhances knowledge in many domains, which benefits the student as well as the school. Co-curricular activities are good platforms to secure your future both professionally and socially and promote leadership quality. It nurtures student’s ability in co-operation, co-ordination, organization and lead you toward leadership. Extra-curricular activities provide exposure to personality and helps in psychological and sociological transformation."
+    android:textSize="20dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textSize="30dp"
+    android:text="List Of Events"
+    android:gravity="center"
+    />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/cca"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:text="Recitation \n Simple story writing \n Play \n Parade \n Music \n Dancing \n Drawing \n Painting \n Fancy dress \n Folk Dance \n Assembly \n Reading"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:text="List Of Sports Events"/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/sports"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:text="Badminton \n Basketball \n Football \n Volleyball \n Long Jump \n Cricket \n Swimming \n Racing \n\n\n"/>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

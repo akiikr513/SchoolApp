@@ -49,7 +49,7 @@
                 android:paddingTop="50dp"
                 android:paddingRight="45dp"
                 android:paddingBottom="50dp"
-                android:id="@+id/academics"
+                android:id="@+id/academics_but"
                 android:text="Academics &amp;\n Achievements" />
 
             <Button
