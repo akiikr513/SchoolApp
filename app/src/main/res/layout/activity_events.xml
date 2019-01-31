@@ -1,9 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Events">
+    <RelativeLayout
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abc"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/detail"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/abc"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ann"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_1_annual_day_celebrations"
+            />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/annual"
+            android:src="@drawable/annual1"
+            android:layout_below="@+id/ann"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/annual"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/annual"
+            android:layout_marginTop="20dp"
+            android:id="@+id/child"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_2_children_s_day_celebrations"
+            tools:ignore="UnknownId" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/children"
+            android:layout_below="@+id/child"
+            android:src="@drawable/child1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/children"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/children"
+            android:layout_marginTop="20dp"
+            android:id="@+id/chris"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_3_christmas_day_celebrations"
+            tools:ignore="UnknownId" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/christmas"
+            android:layout_below="@+id/chris"
+            android:src="@drawable/chris1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/christmas"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/christmas"
+            android:layout_marginTop="20dp"
+            android:id="@+id/diw"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_4_diwali_celebrations"
+            tools:ignore="UnknownId" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/diwali"
+            android:layout_below="@+id/diw"
+            android:src="@drawable/diwali1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/diwali"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diwali"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ear"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_5_earth_day_celebrations"
+            tools:ignore="UnknownId" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/ear"
+            android:id="@+id/earth"
+            android:src="@drawable/earth1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/earth"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earth"
+            android:layout_marginTop="20dp"
+            android:id="@+id/env"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/_6_environment_day_celebrations"
+            tools:ignore="UnknownId" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/environment"
+            android:layout_below="@+id/env"
+            android:src="@drawable/env1"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/environment"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

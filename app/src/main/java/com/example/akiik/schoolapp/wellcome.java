@@ -53,8 +53,11 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         toggle.syncState();
 
         slide = (ViewPager) findViewById(R.id.slide);
+
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
+
         slide.setAdapter(viewPagerAdapter);
+
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new MyTimerTask(), 2000, 4000);
 
@@ -95,12 +98,23 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
             wellcome.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    if (slide.getCurrentItem() == 0) {
+
+                    if (slide.getCurrentItem() == 0 )
+                    {
                         slide.setCurrentItem(1);
-                    } else if (slide.getCurrentItem() == 1) {
+
+                    }
+                    else if (slide.getCurrentItem() == 1 )
+                    {
                         slide.setCurrentItem(2);
-                    } else {
+
+
+                    }
+                    else
+                    {
                         slide.setCurrentItem(0);
+
+
                     }
 
 
