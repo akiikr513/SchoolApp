@@ -3,6 +3,7 @@ package com.example.akiik.schoolapp;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -21,6 +22,8 @@ import java.util.TimerTask;
 public class wellcome extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
     private DrawerLayout drawer;
     ViewPager slide;
+
+
 
 
     @Override
@@ -129,25 +132,25 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         switch (item.getItemId()) {
 
             case R.id.nav_admin:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AdminFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AdminFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_teacher:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TeacherFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TeacherFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_parents:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ParentsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ParentsFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_student:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new StudentsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new StudentsFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_accountant:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountantFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountantFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_library:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LibrarianFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LibrarianFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_contact:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_home:
                 openwellcome();
