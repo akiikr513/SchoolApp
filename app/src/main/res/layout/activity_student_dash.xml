@@ -46,7 +46,7 @@
             android:id="@+id/s_name"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="name"
+            android:hint="name"
             android:textSize="20sp" />
 
 
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        android:text="s_attendance" />
+        android:hint="s_attendance" />
 
 
     </LinearLayout>

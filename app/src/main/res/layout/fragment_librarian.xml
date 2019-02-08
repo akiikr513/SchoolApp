@@ -25,7 +25,7 @@
         android:layout_marginTop="146dp"
         android:layout_toEndOf="@+id/libtxt"
         android:padding="2dp"
-
+        android:hint="ID"
         android:textSize="30sp" />
 
     <TextView
@@ -48,6 +48,7 @@
         android:layout_marginTop="187dp"
         android:layout_toEndOf="@+id/password"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword" />
 
     <Button

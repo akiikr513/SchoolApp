@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/t_id"
-                android:text="teacher id"
+                android:hint="teacher id"
                 android:layout_marginRight="10dp"
                 />
         </LinearLayout>
@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_name"
-            android:text="teacher name"
+            android:hint="teacher name"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -79,7 +79,7 @@
             android:id="@+id/t_age"
             android:inputType="number"
             android:layout_marginRight="10dp"
-            android:text="age"
+            android:hint="age"
             />
     </LinearLayout>
     <LinearLayout
@@ -99,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_gender"
-            android:text="gender"
+            android:hint="gender"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -120,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_class"
-            android:text="class"
+            android:hint="class"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -141,7 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_phno"
-            android:text="phone no."
+            android:hint="phone no."
             android:layout_marginRight="10dp"
             android:inputType="number"
             />
@@ -163,7 +163,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_email"
-            android:text="email id"
+            android:hint="email id"
             android:layout_marginRight="10dp"
             android:inputType="textEmailAddress"
             />
@@ -185,7 +185,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/t_address"
-            android:text="address"
+            android:hint="address"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>

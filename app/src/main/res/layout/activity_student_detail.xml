@@ -28,7 +28,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="class"
+            android:hint="class"
             android:textSize="20sp"
             android:id="@+id/s_class"/>
         <TextView
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="section"
+            android:hint="section"
             android:id="@+id/s_section"/>
         <Button
             android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="id"
+            android:hint="id"
             android:textSize="20sp"
             android:id="@+id/s_id"
             />

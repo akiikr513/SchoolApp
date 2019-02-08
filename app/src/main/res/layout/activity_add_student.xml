@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/s_id"
-            android:text="student id"
+            android:hint="student id"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/s_name"
-            android:text="student name"
+            android:hint="student name"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/s_age"
             android:inputType="number"
-            android:text="age"
+            android:hint="age"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_gender"
-            android:text="gender"
+            android:hint="gender"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
@@ -111,7 +111,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="father name"
+        android:hint="father name"
         android:id="@+id/p_name"/>
     </LinearLayout>
     <LinearLayout
@@ -131,7 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_class"
-            android:text="class"
+            android:hint="class"
             android:layout_marginRight="10dp"
             />
 
@@ -148,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_section"
-            android:text="section"
+            android:hint="section"
             android:layout_marginRight="10dp"
             />
 
@@ -162,7 +162,7 @@
         <TextView
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="PHONE NO>"
+            android:text="PHONE NO"
             android:gravity="center_horizontal"
             android:textSize="20sp"
             android:layout_marginTop="5dp"
@@ -172,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_phno1"
-            android:text="phone no."
+            android:hint="phone no."
             android:layout_marginRight="10dp"
             android:inputType="number"
             />
@@ -181,7 +181,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_phno2"
-            android:text="phone no."
+            android:hint="phone no."
             android:layout_marginRight="10dp"
             android:inputType="number"
             />
@@ -204,7 +204,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/s_email"
-            android:text="email id"
+            android:hint="email id"
             android:layout_marginRight="10dp"
             android:inputType="textEmailAddress"
             />
@@ -226,7 +226,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/s_address"
-            android:text="address"
+            android:hint="address"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
