@@ -10,25 +10,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class StudentsFragment extends Fragment {
-    Button but;
+public class CalendarFragment extends Fragment {
+
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.fragment_student,container,false);
-
-        but = v.findViewById(R.id.but_stu_login);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        View v=inflater.inflate(R.layout.fragment_calendar,container,false);
 
 
-                Intent istudash = new Intent(getActivity(), StudentDash.class);
-                startActivity(istudash);
-            }
-        });
         return v;
 
 

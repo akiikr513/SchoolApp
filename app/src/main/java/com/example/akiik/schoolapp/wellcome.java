@@ -3,7 +3,6 @@ package com.example.akiik.schoolapp;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -131,23 +130,27 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
 
-            case R.id.nav_admin:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AdminFragment()).addToBackStack(null).commit();
+            case R.id.nav_notification:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new NotificationFragment()).addToBackStack(null).commit();
                 break;
-            case R.id.nav_teacher:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TeacherFragment()).addToBackStack(null).commit();
+            case R.id.nav_attendance:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AttendanceFragment()).addToBackStack(null).commit();
                 break;
-            case R.id.nav_parents:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ParentsFragment()).addToBackStack(null).commit();
+            case R.id.nav_assignment:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AssignmentFragment()).addToBackStack(null).commit();
                 break;
-            case R.id.nav_student:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new StudentsFragment()).addToBackStack(null).commit();
+            case R.id.nav_calendar:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CalendarFragment()).addToBackStack(null).commit();
                 break;
-            case R.id.nav_accountant:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountantFragment()).addToBackStack(null).commit();
+            case R.id.nav_results:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ResultsFragment()).addToBackStack(null).commit();
                 break;
-            case R.id.nav_library:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LibrarianFragment()).addToBackStack(null).commit();
+            case R.id.nav_track_bus:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TrackBusFragment()).addToBackStack(null).commit();
+                break;
+
+            case R.id.nav_fee_status:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FeeStatusFragment()).addToBackStack(null).commit();
                 break;
             case R.id.nav_contact:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ContactFragment()).addToBackStack(null).commit();

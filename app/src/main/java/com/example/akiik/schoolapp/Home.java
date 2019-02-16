@@ -26,8 +26,8 @@ Thread timer=new Thread(){
 
 
         sleep(2000);
-        Intent ihome=new Intent(getApplicationContext(),wellcome.class);
-        startActivity(ihome);
+        Intent login=new Intent(getApplicationContext(),Login.class);
+        startActivity(login);
         finish();
         super.run();
     } catch (InterruptedException e){

@@ -15,7 +15,6 @@
     <string name="ach">Priyanshi Gupta of Class XI has secured All India Rank 90 and Regional Rank 10 in the merit of 19th Junior Mathematical Olympiad(JMO) 2016 organized by School Head Quarters,New Delhi.</string>
 
 
-
     <string name="everyone_learns_everyday">Everyone Learns Everyday</string>
     <string name="mission">Mission</string>
     <string name="our_goal">Our Goal</string>
@@ -40,6 +39,8 @@
     <string name="environment">Environment</string>
 
 
+
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

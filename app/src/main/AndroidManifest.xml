@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.akiik.schoolapp">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,10 +31,6 @@
         <activity
             android:name=".wellcome"
             android:theme="@style/welcome" />
-        <activity android:name=".AdminDash" />
-        <activity
-            android:name=".StudentDash"
-            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -33,23 +39,12 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBmOO1SA76OUQ_fMdBsZXAqSUMswta0PnY" />
 
-        <activity android:name=".TeacherList" />
-        <activity android:name=".TeacherDetail" />
-        <activity android:name=".ParentsDash" />
-        <activity android:name=".TeacherDash" />
-        <activity android:name=".LiberianDash" />
-        <activity android:name=".AccountantDash" />
-        <activity android:name=".StudentDetail" />
-        <activity android:name=".AddStudent" />
-        <activity android:name=".StudentList" />
-        <activity android:name=".StudentEdit" />
-        <activity android:name=".ParentList" />
-        <activity android:name=".LiberianList" />
-        <activity android:name=".AccountantList" />
+
         <activity android:name=".Achivement" />
         <activity android:name=".Events" />
         <activity android:name=".Cocu" />
-        <activity android:name=".Mission"></activity>
+        <activity android:name=".Mission" />
+        <activity android:name=".Login"/>
     </application>
 
 </manifest>

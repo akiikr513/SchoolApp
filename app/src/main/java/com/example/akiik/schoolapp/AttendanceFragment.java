@@ -10,24 +10,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class LibrarianFragment extends Fragment {
+public class AttendanceFragment extends Fragment {
 
-    Button but;
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_librarian, container, false);
-
-        but = v.findViewById(R.id.but_lib_login);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        return  inflater.inflate(R.layout.fragment_attendance, container, false);
 
 
-                Intent ilibdash = new Intent(getActivity(), LiberianDash.class);
-                startActivity(ilibdash);
-            }
-        });
-        return v;
+
     }
 }

@@ -9,29 +9,33 @@
             android:title="Home"/>
 
         <item
-            android:id="@+id/nav_admin"
-            android:icon="@drawable/ic_admin"
-            android:title="Admin" />
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notification" />
         <item
-            android:id="@+id/nav_teacher"
-            android:icon="@drawable/ic_teacher"
-            android:title="Teacher" />
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_attendance"
+            android:title="Attendance" />
         <item
-            android:id="@+id/nav_parents"
-            android:icon="@drawable/ic_parents"
-            android:title="Parents" />
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/ic_assignment"
+            android:title="Assignment" />
         <item
-            android:id="@+id/nav_student"
-            android:icon="@drawable/ic_student"
-            android:title="Student" />
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar" />
         <item
-            android:id="@+id/nav_library"
-            android:icon="@drawable/ic_library"
-            android:title="Librarian" />
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_results"
+            android:title="Results" />
         <item
-            android:id="@+id/nav_accountant"
-            android:icon="@drawable/ic_accountant"
-            android:title="Accountant" />
+            android:id="@+id/nav_track_bus"
+            android:icon="@drawable/ic_track_bus"
+            android:title="Track Bus" />
+        <item
+            android:id="@+id/nav_fee_status"
+            android:icon="@drawable/ic_fee"
+            android:title="Fee Status" />
         <item
             android:id="@+id/nav_contact"
             android:title="Contact Us"
