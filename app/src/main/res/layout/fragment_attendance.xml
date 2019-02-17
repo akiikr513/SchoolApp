@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
+
     android:layout_marginTop="40dp"
     android:background="#ffffff"
    >
@@ -10,6 +10,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,12 +20,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name:"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/s_name"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:hint="student name"
             />
     </LinearLayout>
@@ -35,12 +36,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:text="Absent Count:"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:id="@+id/s_abs_no"
             android:hint="no."/>
 
@@ -52,12 +53,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:text="Total days:"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:id="@+id/s_total_no"
             android:hint="no."/>
 
@@ -66,6 +67,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <CalendarView
+        android:layout_marginLeft="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </LinearLayout>

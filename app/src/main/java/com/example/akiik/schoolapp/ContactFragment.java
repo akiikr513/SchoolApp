@@ -8,18 +8,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import static com.example.akiik.schoolapp.R.*;
 
 public class ContactFragment extends Fragment implements OnMapReadyCallback {
 
     private MapView mapView;
-    private GoogleMap googleMap;
+    private GoogleMap gMap;
 
     @Nullable
     @Override
@@ -40,7 +44,10 @@ public class ContactFragment extends Fragment implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        googleMap = googleMap;
+       gMap = googleMap;
+        LatLng school=new LatLng(12.9280,77.5878);
+        gMap.addMarker(new MarkerOptions().position(school).title("ABC School"));
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(school,16.2f));
     }
 }
 

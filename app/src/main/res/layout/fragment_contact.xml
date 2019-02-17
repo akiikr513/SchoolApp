@@ -137,23 +137,16 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp">
 
-            <FrameLayout
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <com.google.android.gms.maps.MapView
-                    android:id="@+id/map"
-                    class="com.google.android.gsm.maps.MapFragment"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-
-            </FrameLayout>
-
-
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
+
 
 </LinearLayout>
