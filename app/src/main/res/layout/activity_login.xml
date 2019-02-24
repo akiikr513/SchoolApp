@@ -54,5 +54,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="98dp"
         android:text="log In"
+        android:clickable="true"
+        android:background="@drawable/button_background"
         android:textStyle="bold" />
+
+
 </LinearLayout>
