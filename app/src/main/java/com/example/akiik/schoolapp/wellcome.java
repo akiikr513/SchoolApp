@@ -14,6 +14,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -22,7 +31,7 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
     private DrawerLayout drawer;
     ViewPager slide;
 
-
+DatabaseReference myRef;
 
 
     @Override
@@ -34,6 +43,7 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
         Button but_events=findViewById(R.id.events);
         Button but_cocu=findViewById(R.id.cocu);
         Button but_mission=findViewById(R.id.mission);
+
 
         but_accademics.setOnClickListener(this);
         but_events.setOnClickListener(this);
@@ -66,6 +76,29 @@ public class wellcome extends AppCompatActivity implements NavigationView.OnNavi
 
     }
 
+    //new  changes are done here to onClick some error is here
+/*
+    @Override
+    protected void onStart(){
+        super.onStart();
+         final TextView textpname=findViewById(R.id.pnamehome);
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("school-786");
+        myRef.addValueEventListener(new com.google.firebase.database.ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull com.google.firebase.database.DataSnapshot dataSnapshot) {
+                String text=dataSnapshot.getValue(String.class);
+                textpname.setText(text);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+*/
     @Override
     public void onClick(View v) {
 

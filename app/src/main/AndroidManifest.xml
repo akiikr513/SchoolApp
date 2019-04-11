@@ -39,12 +39,12 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBmOO1SA76OUQ_fMdBsZXAqSUMswta0PnY" />
 
-
         <activity android:name=".Achivement" />
         <activity android:name=".Events" />
         <activity android:name=".Cocu" />
         <activity android:name=".Mission" />
-        <activity android:name=".Login"/>
+        <activity android:name=".Login" />
+
     </application>
 
 </manifest>

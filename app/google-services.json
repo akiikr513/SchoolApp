@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "498931236703",
-    "firebase_url": "https://school-786.firebaseio.com",
-    "project_id": "school-786",
-    "storage_bucket": "school-786.appspot.com"
+    "project_number": "471164808167",
+    "firebase_url": "https://schooldb-e92bd.firebaseio.com",
+    "project_id": "schooldb-e92bd",
+    "storage_bucket": "schooldb-e92bd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:498931236703:android:e6e7f6e5744c2ab7",
+        "mobilesdk_app_id": "1:471164808167:android:e6e7f6e5744c2ab7",
         "android_client_info": {
           "package_name": "com.example.akiik.schoolapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "498931236703-h52l02jgt5ehabrht26bi975lc2m0331.apps.googleusercontent.com",
+          "client_id": "471164808167-102jorrnak71hccbpm9tem7ctbhrr86g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.akiik.schoolapp",
@@ -23,30 +23,60 @@
           }
         },
         {
-          "client_id": "498931236703-qlqfu8den7so9s9ac7l15gl1niikh8b2.apps.googleusercontent.com",
+          "client_id": "471164808167-r249jhdon7i0pkeje1agatt8djapamib.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDFy2ppFuZLY65R7RhiabjsSKOh9V-W2gA"
+          "current_key": "AIzaSyCEcwbvVbqq_JrIZZZ3ckoPRBnOlGep4D8"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "498931236703-qlqfu8den7so9s9ac7l15gl1niikh8b2.apps.googleusercontent.com",
+              "client_id": "471164808167-r249jhdon7i0pkeje1agatt8djapamib.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471164808167:android:8dd055b69f8fd216",
+        "android_client_info": {
+          "package_name": "com.example.akiik.schoolappteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471164808167-8hvalfks2latdg7619ejpht7pkl6905h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akiik.schoolappteacher",
+            "certificate_hash": "7157019d20c27b8539aa1876a75fc1096f8c8d0b"
+          }
         },
-        "ads_service": {
-          "status": 2
+        {
+          "client_id": "471164808167-r249jhdon7i0pkeje1agatt8djapamib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEcwbvVbqq_JrIZZZ3ckoPRBnOlGep4D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471164808167-r249jhdon7i0pkeje1agatt8djapamib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
