@@ -29,9 +29,6 @@ public class AttendanceFragment extends Fragment {
 
 
 
-
-
-
     DatabaseReference ref;
     private RecyclerView recyclerView;
     private StudentsAdapter adapter;
